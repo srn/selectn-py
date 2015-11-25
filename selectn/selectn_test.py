@@ -37,3 +37,11 @@ def test_selectn_empty_return_none():
     short = selectn('info.name.short', hash)
 
     assert short is None
+
+
+def test_selectn_non_dict_return_none():
+    hash = None
+
+    short = selectn('info.name.short', hash)
+
+    assert short is None
