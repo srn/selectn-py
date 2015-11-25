@@ -27,7 +27,7 @@ $ pip install selectn-python
 ```python
 from selectn import selectn
 
-dic = {'ay': {'yo'}}
+dic = {'info': {'name': {'full': 'selectn'}}}
 
 selectn('info.name.full', dic)
 ```
