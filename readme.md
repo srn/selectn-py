@@ -7,7 +7,7 @@ Inspired by the node library [selectn](https://github.com/wilmoore/selectn.js)
 So you can do:
 
 ```python
-selectn('info.name.full', person);
+selectn('info.name.full', person)
 ```
 
 instead of:
@@ -31,6 +31,8 @@ $ pip install selectn-python
 >>>
 >>> selectn('info.name.full', dic)
 'selectn'
+>>> selectn('info.name.short', dic)
+None
 ```
 
 ## License
