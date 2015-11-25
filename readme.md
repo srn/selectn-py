@@ -13,7 +13,7 @@ selectn('info.name.full', person);
 instead of:
 
 ```python
-person and person.get('info').get('name').get('full')
+person and person['info'] and person['info']['name'] and person['info']['name']['full']
 ```
 
 ## Install
