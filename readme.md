@@ -25,11 +25,12 @@ $ pip install selectn-python
 ## Usage
 
 ```python
-from selectn import selectn
-
-dic = {'info': {'name': {'full': 'selectn'}}}
-
-selectn('info.name.full', dic)
+>>> from selectn import selectn
+>>>
+>>> dic = {'info': {'name': {'full': 'selectn'}}}
+>>>
+>>> selectn('info.name.full', dic)
+'selectn'
 ```
 
 ## License
